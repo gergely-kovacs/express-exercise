@@ -1,0 +1,61 @@
+id,name,climate,diameter
+1,Tatooine,arid,10465
+2,Alderaan,temperate,12500
+3,Yavin IV,temperate tropical,10200
+4,Hoth,frozen,7200
+5,Dagobah,murky,8900
+6,Bespin,temperate,118000
+7,Endor,temperate,4900
+8,Naboo,temperate,12120
+9,Coruscant,temperate,12240
+10,Kamino,temperate,19720
+11,Geonosis,temperate arid,11370
+12,Utapau,temperate arid windy,12900
+13,Mustafar,hot,4200
+14,Kashyyyk,tropical,12765
+15,Polis Massa,artificial temperate ,0
+16,Mygeeto,frigid,10088
+17,Felucia,hot humid,9100
+18,Cato Neimoidia,temperate moist,0
+19,Saleucami,hot,14920
+20,Stewjon,temperate,0
+21,Eriadu,polluted,13490
+22,Corellia,temperate,11000
+23,Rodia,hot,7549
+24,Nal Hutta,temperate,12150
+25,Dantooine,temperate,9830
+26,Bestine IV,temperate,6400
+27,Ord Mantell,temperate,14050
+28,unknown,unknown,0
+29,Trandosha,arid,0
+30,Socorro,arid,0
+31,Mon Cala,temperate,11030
+32,Chandrila,temperate,13500
+33,Sullust,superheated,12780
+34,Toydaria,temperate,7900
+35,Malastare,arid temperate tropical,18880
+36,Dathomir,temperate,10480
+37,Ryloth,temperate arid subartic,10600
+38,Aleen Minor,unknown,unknown
+39,Vulpter,temperate artic,14900
+40,Troiken,unknown,unknown
+41,Tund,unknown,12190
+42,Haruun Kal,temperate,10120
+43,Cerea,temperate,unknown
+44,Glee Anselm,tropical temperate,15600
+45,Iridonia,unknown,unknown
+46,Tholoth,unknown,unknown
+47,Iktotch,arid rocky windy,unknown
+48,Quermia,unknown,unknown
+49,Dorin,temperate,13400
+50,Champala,temperate,unknown
+51,Mirial,unknown,unknown
+52,Serenno,unknown,unknown
+53,Concord Dawn,unknown,unknown
+54,Zolan,unknown,unknown
+55,Ojom,frigid,unknown
+56,Skako,temperate,unknown
+57,Muunilinst,temperate,13800
+58,Shili,temperate,unknown
+59,Kalee,arid temperate tropical,13850
+60,Umbara,unknown,unknown

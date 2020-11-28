@@ -1,0 +1,40 @@
+1. Készíts express webszervert!
+
+2. A szerver szolgálja ki a public könyvtár alatt levő fájlokat.
+
+3. Installáld a jquery és boostrap libraryket. 
+    Terminál megnyitása: F1 > Open Shell
+    A node_modules könyvtár nem látható a fájl panelen, de létezik.
+
+4. /node_modules/bootstrap/dist/css alatt levő fájlok legyenek elérhetők a /css elérési út segítségével
+/node_modules/jquery/dist alatt levő fájlok legyenek elérhetők a /js elérési út segítségével
+
+5. Hozz létre egy modult amely az adatokat beolvassa a csv fájlokból.
+   Adatok: 
+   people.csv - people adatok
+   planets.csv - planets adatok
+   residents.csv - kapcsolat a people és planets adatok között
+
+    Az adatokat object tömbökbe olvasd be.
+    A modul tudja visszaadni:
+        az összes people adatot
+        id szerint egy people adatot
+        az összes planet adatot
+        id szerint egy planet adatot
+        egy planet összes lakóját (residents)
+
+6. Készíts el a következő végpontokat! Használj router(eke)t!
+   Kezeld a hibákat, hiba esetén küldj megfelelő státuszkódot a válaszban!
+   
+   GET people: a válaszban küldje el a people adatok listáját json formátumban
+   GET people/[id]: a válaszban küldje el az id paraméteben megadott azonosítójú people adatot json formátumban 
+   GET people/planet/[id]: a válaszban küldje el a planet-en lakók listáját json formátumban
+   DELETE people/[id]: törölje az id paraméteben megadott azonosítójú people adatot 
+   200 választ küldjön vissza ha sikeres volt a törlés, ha hiba történt vagy nincs megfelelő azonosítójú adat, akkor (500 / 404 - et) 
+   GET planet: a válaszban küldje el a planet adatok listáját json formátumban
+   GET planet/[id]: a válaszban küldje el az id paraméteben megadott azonosítójú planet adatot json formátumban 
+
+5. Állítds be az ejs templating engine-t!
+   A views könyvtár alatti html fájlokat írd át ejs template-ekké.
+   (Ha a html fájlba van script tag ne töröld!)
+   Módosítsd a 6. feladatban beállított válaszokat, a GET kéréskre JSON válasz helyett a megfelelő view-t rendereld!

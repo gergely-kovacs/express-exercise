@@ -1,0 +1,80 @@
+id,name,height,mass,skin_color,hair_color,birth_year,gender
+1,Luke Skywalker,172,77,fair,blond,19BBY,male
+2,C-3PO,167,75,gold,n/a,112BBY,n/a
+3,R2-D2,96,32,white blue,n/a,33BBY,n/a
+4,Darth Vader,202,136,white,none,41.9BBY,male
+5,Leia Organa,150,49,light,brown,19BBY,female
+6,Owen Lars,178,120,light,brown grey,52BBY,male
+7,Beru Whitesun lars,165,75,light,brown,47BBY,female
+8,R5-D4,97,32,white red,n/a,unknown,n/a
+9,Biggs Darklighter,183,84,light,black,24BBY,male
+10,Obi-Wan Kenobi,182,77,fair,auburn white,57BBY,male
+11,Anakin Skywalker,188,84,fair,blond,41.9BBY,male
+12,Wilhuff Tarkin,180,unknown,fair,auburn grey,64BBY,male
+13,Chewbacca,228,112,unknown,brown,200BBY,male
+14,Han Solo,180,80,fair,brown,29BBY,male
+15,Greedo,173,74,green,n/a,44BBY,male
+16,Jabba Desilijic Tiure,175,1.358,green-tan brown,n/a,600BBY,hermaphrodite
+18,Wedge Antilles,170,77,fair,brown,21BBY,male
+19,Jek Tono Porkins,180,110,fair,brown,unknown,male
+20,Yoda,66,17,green,white,896BBY,male
+21,Palpatine,170,75,pale,grey,82BBY,male
+22,Boba Fett,183,78.2,fair,black,31.5BBY,male
+23,IG-88,200,140,metal,none,15BBY,none
+24,Bossk,190,113,green,none,53BBY,male
+25,Lando Calrissian,177,79,dark,black,31BBY,male
+26,Lobot,175,79,light,none,37BBY,male
+27,Ackbar,180,83,brown mottle,none,41BBY,male
+28,Mon Mothma,150,unknown,fair,auburn,48BBY,female
+29,Arvel Crynyd,unknown,unknown,fair,brown,unknown,male
+30,Wicket Systri Warrick,88,20,brown,brown,8BBY,male
+31,Nien Nunb,160,68,grey,none,unknown,male
+32,Qui-Gon Jinn,193,89,fair,brown,92BBY,male
+33,Nute Gunray,191,90,mottled green,none,unknown,male
+34,Finis Valorum,170,unknown,fair,blond,91BBY,male
+36,Jar Jar Binks,196,66,orange,none,52BBY,male
+37,Roos Tarpals,224,82,grey,none,unknown,male
+38,Rugor Nass,206,unknown,green,none,unknown,male
+39,Ric Olié,183,unknown,fair,brown,unknown,male
+40,Watto,137,unknown,blue grey,black,unknown,male
+41,Sebulba,112,40,grey red,none,unknown,male
+42,Quarsh Panaka,183,unknown,dark,black,62BBY,male
+43,Shmi Skywalker,163,unknown,fair,black,72BBY,female
+44,Darth Maul,175,80,red,none,54BBY,male
+45,Bib Fortuna,180,unknown,pale,none,unknown,male
+46,Ayla Secura,178,55,blue,none,48BBY,female
+48,Dud Bolt,94,45,blue grey,none,unknown,male
+49,Gasgano,122,unknown,white blue,none,unknown,male
+50,Ben Quadinaros,163,65,grey green yellow,none,unknown,male
+51,Mace Windu,188,84,dark,none,72BBY,male
+52,Ki-Adi-Mundi,198,82,pale,white,92BBY,male
+53,Kit Fisto,196,87,green,none,unknown,male
+54,Eeth Koth,171,unknown,brown,black,unknown,male
+55,Adi Gallia,184,50,dark,none,unknown,female
+56,Saesee Tiin,188,unknown,pale,none,unknown,male
+57,Yarael Poof,264,unknown,white,none,unknown,male
+58,Plo Koon,188,80,orange,none,22BBY,male
+59,Mas Amedda,196,unknown,blue,none,unknown,male
+60,Gregar Typho,185,85,dark,black,unknown,male
+61,Cordé,157,unknown,light,brown,unknown,female
+62,Cliegg Lars,183,unknown,fair,brown,82BBY,male
+63,Poggle the Lesser,183,80,green,none,unknown,male
+64,Luminara Unduli,170,56.2,yellow,black,58BBY,female
+65,Barriss Offee,166,50,yellow,black,40BBY,female
+66,Dormé,165,unknown,light,brown,unknown,female
+67,Dooku,193,80,fair,white,102BBY,male
+68,Bail Prestor Organa,191,unknown,tan,black,67BBY,male
+69,Jango Fett,183,79,tan,black,66BBY,male
+70,Zam Wesell,168,55,fair green yellow,blonde,unknown,female
+71,Dexter Jettster,198,102,brown,none,unknown,male
+72,Lama Su,229,88,grey,none,unknown,male
+73,Taun We,213,unknown,grey,none,unknown,female
+74,Jocasta Nu,167,unknown,fair,white,unknown,female
+75,R4-P17,96,unknown,silver red,none,unknown,female
+76,Wat Tambor,193,48,green grey,none,unknown,male
+77,San Hill,191,unknown,grey,none,unknown,male
+78,Shaak Ti,178,57,red blue white,none,unknown,female
+79,Grievous,216,159,brown white,none,unknown,mal
+80,Tarfful,234,136,brown,brown,unknown,male
+81,Raymus Antilles,188,79,light,brown,unknown,male
+82,Sly Moore,178,48,pale,none,unknown,female

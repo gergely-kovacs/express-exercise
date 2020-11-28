@@ -1,0 +1,76 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="/js/jquery.min.js"></script>
+    <title>People</title>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.982.0">
+    <h1>People</h1>
+    <ul class="data-list">
+        
+            <li data-id="1">
+                <b>Luke Skywalker</b>
+                <span>19BBY</span>
+                <a onclick="deletePerson('1')">
+                    <i class="material-icons" style="color:red">close</i>
+                </a>
+                <a href="/people/1">
+                    <i class="material-icons">arrow_forward</i>
+                </a>
+            </li>
+            
+            <li data-id="2">
+                <b>C-3PO</b>
+                <span>112BBY</span>
+                <a onclick="deletePerson('2')">
+                    <i class="material-icons" style="color:red">close</i>
+                </a>
+                <a href="/people/2">
+                    <i class="material-icons">arrow_forward</i>
+                </a>
+            </li>
+            
+            <li data-id="3">
+                <b>R2-D2</b>
+                <span>33BBY</span>
+                <a onclick="deletePerson('3')">
+                    <i class="material-icons" style="color:red">close</i>
+                </a>
+                <a href="/people/3">
+                    <i class="material-icons">arrow_forward</i>
+                </a>
+            </li>
+            
+            <li data-id="4">
+                <b>Darth Vader</b>
+                <span>41.9BBY</span>
+                <a onclick="deletePerson('4')">
+                    <i class="material-icons" style="color:red">close</i>
+                </a>
+                <a href="/people/4">
+                    <i class="material-icons">arrow_forward</i>
+                </a>
+            </li>  
+    </ul>
+    <script>
+        function deletePerson(id) {
+            $.ajax({
+                    url: `/people/${id}`,
+                    method: 'delete'
+                })
+                .then(resp => {
+                    if (resp === 'OK') {
+                        $(`li[data-id=${id}]`).remove();
+                    }
+                })
+                .catch(err => console.error(err));
+        }
+    </script>
+
+
+</body></html>
