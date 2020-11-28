@@ -21,6 +21,7 @@
   "homepage": "https://github.com/gergely-kovacs/express-exercise#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "csv": "^5.3.2",
     "express": "^4.17.1",
     "jquery": "^3.5.1"
   },
