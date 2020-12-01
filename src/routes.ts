@@ -1,5 +1,5 @@
 import express from 'express';
-import {loadPeople, loadPerson, loadPlanet, loadPlanets, loadResidentsByPlanetId} from './loaders';
+import {deletePerson, loadPeople, loadPerson, loadPlanet, loadPlanets, loadResidentsByPlanetId} from './loaders';
 
 export const router = express.Router();
 
@@ -11,6 +11,11 @@ router.get('/people/:id', async (request, response) => {
   const personId = request.params.id;
   response.json(await loadPerson(personId));
 });
+
+router.delete('/people/:id', async (request, response) => {
+  const personId = request.params.id;
+  response.json(await deletePerson(personId));
+})
 
 router.get('/people/planet/:planetId', async (request, response) => {
   const planetId = request.params.planetId;

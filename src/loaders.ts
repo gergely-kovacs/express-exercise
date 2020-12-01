@@ -1,4 +1,6 @@
 import parse = require('csv-parse');
+import stringify = require('csv-stringify');
+import stream = require('stream');
 import fs = require('fs');
 import path = require('path');
 
@@ -23,6 +25,17 @@ export async function loadPeople() {
 export async function loadPerson(id: string) {
   const people = await loadPeople();
   return people.filter(person => person.id === id);
+}
+
+export async function deletePerson(id: string) {
+  const people = await loadPeople();
+  const otherPeople = people.filter(person => person.id !== id);
+  stream.Readable.from(otherPeople, {objectMode: true})
+    .pipe(stringify({
+      header: true
+    }))
+    .pipe(fs.createWriteStream(path.resolve('data/csv/people2.csv')));
+  return otherPeople;
 }
 
 export async function loadPlanets() {
