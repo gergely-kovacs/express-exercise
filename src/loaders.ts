@@ -2,7 +2,7 @@ import parse = require('csv-parse');
 import fs = require('fs');
 import path = require('path');
 
-async function processFile(filePath: string) {
+async function loadDataFromCSVFile(filePath: string) {
   const records = [];
   const parser = fs
     .createReadStream(path.resolve(filePath))
@@ -17,7 +17,7 @@ async function processFile(filePath: string) {
 
 export async function loadPeople() {
   const pathToPeople = 'data/csv/people.csv';
-  return await processFile(pathToPeople);
+  return await loadDataFromCSVFile(pathToPeople);
 }
 
 export async function loadPerson(id: string) {
@@ -27,7 +27,7 @@ export async function loadPerson(id: string) {
 
 export async function loadPlanets() {
   const pathToPlanets = 'data/csv/planets.csv';
-  return await processFile(pathToPlanets);
+  return await loadDataFromCSVFile(pathToPlanets);
 }
 
 export async function loadPlanet(id: string) {
@@ -37,7 +37,7 @@ export async function loadPlanet(id: string) {
 
 export async function loadResidents() {
   const pathToResidents = 'data/csv/residents.csv';
-  return await processFile(pathToResidents);
+  return await loadDataFromCSVFile(pathToResidents);
 }
 
 export async function loadResidentsByPlanetId(planetId: string) {
